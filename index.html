@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salsa’s Portfolio | Salsabila Artika Arifiani</title>
+    <meta name="description" content="Portfolio of Salsabila Artika Arifiani, an Information Systems student exploring data management, dashboards, business process analysis, and project coordination.">
+    <meta name="theme-color" content="#FFF8F5">
+    <meta name="color-scheme" content="light">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Salsabila Artika Arifiani | Information Systems Portfolio">
+    <meta property="og:description" content="Information Systems student at UIN Syarif Hidayatullah Jakarta. Case studies in data management, Excel and Tableau dashboards, and business process analysis.">
+    <meta property="og:url" content="https://salsabilartika.github.io/Portfolio/">
+    <meta property="og:image" content="https://salsabilartika.github.io/Portfolio/assets/images/og-cover.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="author" content="Salsabila Artika Arifiani">
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..700,0..100,0..1;1,9..144,400..700,0..100,0..1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+        <symbol id="flower" viewBox="0 0 64 64">
+            <g fill="currentColor">
+                <circle cx="32" cy="15" r="11"/><circle cx="48" cy="27" r="11"/><circle cx="42" cy="46" r="11"/>
+                <circle cx="22" cy="46" r="11"/><circle cx="16" cy="27" r="11"/>
+            </g>
+            <circle cx="32" cy="32" r="8" fill="#FBF0C9"/>
+        </symbol>
+        <symbol id="sparkle" viewBox="0 0 64 64">
+            <path fill="currentColor" d="M32 2c2 15 7 25 30 30-23 5-28 15-30 30-2-15-7-25-30-30C25 27 30 17 32 2z"/>
+        </symbol>
+    </svg>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="navbar">
+        <a class="logo" href="#hero">Salsabila Artika Arifiani</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+        <nav aria-label="Main">
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero">Hi! That’s Me</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <section id="hero" class="hero-section">
+            <svg class="deco deco-1" aria-hidden="true"><use href="#flower"/></svg>
+            <svg class="deco deco-2" aria-hidden="true"><use href="#sparkle"/></svg>
+            <svg class="deco deco-3" aria-hidden="true"><use href="#flower"/></svg>
+            <svg class="deco deco-4" aria-hidden="true"><use href="#sparkle"/></svg>
+
+            <div class="hero-content">
+                <div class="hero-copy">
+                    <p class="hero-eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> INFORMATION SYSTEMS · UIN JAKARTA</p>
+                    <h1>Hi, I’m <span class="accent-name">Salsa.</span></h1>
+                    <p class="status-badge">Data &amp; Business Process Enthusiast</p>
+                    <p class="hero-bio">
+                        I’m an Information Systems student interested in data, business processes, and finance.
+                        I enjoy turning scattered information into something structured and useful-through data
+                        work, process analysis, and project coordination.
+                    </p>
+                    <ul class="focus-chips" aria-label="Areas of interest">
+                        <li>Data management</li>
+                        <li>Data analytics</li>
+                        <li>Business process analysis</li>
+                        <li>Project coordination</li>
+                    </ul>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn-primary">Explore my work <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                        <a href="#about" class="btn-outline">A little about me</a>
+                    </div>
+                    <p class="hero-footnote"><i class="fa-solid fa-sparkles" aria-hidden="true"></i> Curious by nature, organized by habit, always learning.</p>
+                </div>
+
+                <div class="hero-visual" aria-label="Profile introduction">
+                    <div class="profile-frame">
+                        <img src="assets/profile.jpeg" alt="Portrait of Salsabila Artika Arifiani" width="340" height="420">
+                        <span class="profile-initial" aria-hidden="true">S</span>
+                    </div>
+                    <div class="profile-caption">
+                        <span class="caption-mark" aria-hidden="true"><i class="fa-solid fa-heart"></i></span>
+                        <span><strong>Salsabila Artika Arifiani</strong><small>Information Systems · UIN Jakarta</small></span>
+                    </div>
+                    <span class="visual-sticker sticker-one" aria-hidden="true"><i class="fa-solid fa-sparkles"></i></span>
+                    <span class="visual-sticker sticker-two" aria-hidden="true"><i class="fa-solid fa-leaf"></i></span>
+                </div>
+            </div>
+
+            <svg class="wave-divider" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M0,42 C240,92 480,2 720,42 C960,82 1200,8 1440,52 L1440,90 L0,90 Z"/>
+            </svg>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-title">
+                    <p class="section-kicker">GET TO KNOW ME</p>
+                    <h2>About Me</h2>
+                    <p>A little glimpse into my journey, experiences, and skills.</p>
+                </div>
+
+                <div class="about-intro">
+                    <div class="about-intro-copy">
+                        <span class="about-label">A LITTLE ABOUT MY APPROACH</span>
+                        <p>I enjoy working at the intersection of people, data, and processes. Through academic projects and student activities, I’ve gained hands-on experience in cleaning and organizing data, building dashboards, mapping business processes, and supporting team coordination.</p>
+                    </div>
+                    <div class="about-pillars" aria-label="Core interests">
+                        <span><i class="fa-solid fa-chart-column" aria-hidden="true"></i> Data &amp; reporting</span>
+                        <span><i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Process analysis</span>
+                        <span><i class="fa-solid fa-people-group" aria-hidden="true"></i> Team coordination</span>
+                    </div>
+                </div>
+
+                <div class="about-content">
+
+                    <div class="education-block">
+                        <h3>Education</h3>
+                        <div class="education-list">
+                            <div class="education-item">
+                                <i class="fa-solid fa-graduation-cap icon-chip tone-lavender" aria-hidden="true"></i>
+                                <div>
+                                    <h4>Information Systems</h4>
+                                    <p>UIN Syarif Hidayatullah Jakarta</p>
+                                    <p class="muted">Aug 2024 – Present, Semester 5, GPA 3.52 / 4.00</p>
+                                </div>
+                            </div>
+                            <div class="education-item">
+                                <i class="fa-solid fa-school icon-chip tone-blush" aria-hidden="true"></i>
+                                <div>
+                                    <h4>MIPA</h4>
+                                    <p>SMA Negeri 12 Kota Tangerang</p>
+                                    <p class="muted">Jul 2021 – May 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-container" id="experience">
+                        <h3>My Experiences</h3>
+
+                        <h4 class="group-title">Organizational experience</h4>
+                        <div class="card-grid">
+
+                            <article class="card experience-card">
+                                <div class="card-head">
+                                    <i class="fa-solid fa-clipboard-list icon-chip tone-lavender" aria-hidden="true"></i>
+                                    <div>
+                                        <h5>Secretary, Education &amp; Research Division (DIKTI)</h5>
+                                        <p class="org">HIMSI UIN Jakarta, Asteria Cabinet</p>
+                                    </div>
+                                </div>
+                                <p class="date">2026 – 2027 <span class="badge-now">Current</span></p>
+                                <ul class="card-points">
+                                    <li>Run monthly staff reporting through Google Forms, collecting program progress, achievements, obstacles, targets, and evaluations.</li>
+                                    <li>Compiled and organized the reports in Google Sheets and Microsoft Excel.</li>
+                                    <li>Maintained a program tracker to monitor staff involvement and workload.</li>
+                                    <li>Supported the division head with administration, coordination, communication, and monthly meetings.</li>
+                                </ul>
+                                <div class="card-actions">
+                                <button class="chip-btn gallery-trigger" type="button" hidden><i class="fa-regular fa-images" aria-hidden="true"></i> View photos <span class="count"></span></button>
+                                </div>
+                                <ul class="card-gallery" hidden data-title="Sekretaris DIKTI, HIMSI UIN Jakarta">
+                                    <li data-src="assets/dikti-1.jpeg" ></li>
+                                    <li data-src="assets/dikti-2.jpeg" ></li>
+                                    <li data-src="assets/dikti-3.jpeg" ></li>
+                                </ul>
+                            </article>
+
+                        </div>
+
+                        <h4 class="group-title">Committee and program experience</h4>
+                        <div class="card-grid">
+
+                            <article class="card experience-card">
+                                <div class="card-head">
+                                    <i class="fa-solid fa-chalkboard-user icon-chip tone-blush" aria-hidden="true"></i>
+                                    <div>
+                                        <h5>Mentor</h5>
+                                        <p class="org">Sharing Center, Information Systems</p>
+                                    </div>
+                                </div>
+                                <p class="date">Jul 2026 – Present <span class="badge-now">Current</span></p>
+                                <ul class="card-points">
+                                    <li>Mentor more than 10 mentees, preparing and delivering the mentoring materials.</li>
+                                    <li>Facilitate discussions and consultations, and help mentees weigh their decisions.</li>
+                                    <li>Monitor each mentee’s progress and evaluate the mentoring process.</li>
+                                </ul>
+                                <div class="card-actions">
+                                <button class="chip-btn gallery-trigger" type="button" hidden><i class="fa-regular fa-images" aria-hidden="true"></i> View photos <span class="count"></span></button>
+                                </div>
+                                <ul class="card-gallery" hidden data-title="Mentor-Sharing Center">
+                                    <li data-src="assets/mentor-1.jpeg" ></li>
+                                    <li data-src="assets/mentor-2.jpeg" ></li>
+                                    <li data-src="assets/mentor-3.jpeg" ></li>
+                                </ul>
+                            </article>
+
+                            <article class="card experience-card">
+                                <div class="card-head">
+                                    <i class="fa-solid fa-people-group icon-chip tone-blush" aria-hidden="true"></i>
+                                    <div>
+                                        <h5>Assistant Mentor</h5>
+                                        <p class="org">Sharing Center, Information Systems</p>
+                                    </div>
+                                </div>
+                                <p class="date">Jul 2025 – Feb 2026</p>
+                                <ul class="card-points">
+                                    <li>Guided new students in getting to know campus life and organizational culture.</li>
+                                    <li>Ran structured monthly mentoring sessions.</li>
+                                    <li>Scheduled regular meetings and archived the documentation.</li>
+                                    <li>Wrote performance evaluation reports and progress notes for each mentee.</li>
+                                </ul>
+                                <div class="card-actions">
+                                <button class="chip-btn gallery-trigger" type="button" hidden><i class="fa-regular fa-images" aria-hidden="true"></i> View photos <span class="count"></span></button>
+                                </div>
+                                <ul class="card-gallery" hidden data-title="Assistant Mentor-Sharing Center">
+                                    <li data-src="assets/sertifikat-astor.jpeg" ></li>
+                                    <li data-src="assets/astor-1.jpeg" ></li>
+                                    <li data-src="assets/astor-2.jpeg" ></li>
+                                    <li data-src="assets/astor-3.jpeg" ></li>
+                                </ul>
+                            </article>
+
+                            <article class="card experience-card">
+                                <div class="card-head">
+                                    <i class="fa-solid fa-bullhorn icon-chip tone-blush" aria-hidden="true"></i>
+                                    <div>
+                                        <h5>Public Relations Staff</h5>
+                                        <p class="org">Mentoring Akbar Committee, Information Systems</p>
+                                    </div>
+                                </div>
+                                <p class="date">Dec 2025 – Feb 2026</p>
+                                <ul class="card-points">
+                                    <li>Coordinated the registration system for more than 100 participants.</li>
+                                    <li>Kept the check-in process orderly.</li>
+                                    <li>Compiled the guest attendance database and made sure post-event information was complete.</li>
+                                </ul>
+                                <div class="card-actions">
+                                <button class="chip-btn gallery-trigger" type="button" hidden><i class="fa-regular fa-images" aria-hidden="true"></i> View photos <span class="count"></span></button>
+                                </div>
+                                <ul class="card-gallery" hidden data-title="Public Relations Staff, Mentoring Akbar">
+                                    <li data-src="assets/sertifikat-menbar.jpeg" data-alt="Committee certificate for Mentoring Akbar"></li>
+                                </ul>
+                            </article>
+
+                            <article class="card experience-card">
+                                <div class="card-head">
+                                    <i class="fa-solid fa-gamepad icon-chip tone-blush" aria-hidden="true"></i>
+                                    <div>
+                                        <h5>Public Relations Staff</h5>
+                                        <p class="org">HIMSI E-sport Competition (HEC) Committee</p>
+                                    </div>
+                                </div>
+                                <p class="date">Aug 2025 – Oct 2025</p>
+                                <ul class="card-points">
+                                    <li>Validated, normalized, and reconciled the registration and payment data of 36 participants.</li>
+                                </ul>
+                                <div class="card-actions">
+                                    <button class="chip-btn" type="button" data-open="modal-hec"><i class="fa-regular fa-file-lines" aria-hidden="true"></i> Read the case study</button>
+                                    <button class="chip-btn gallery-trigger" type="button" hidden><i class="fa-regular fa-images" aria-hidden="true"></i> View photos <span class="count"></span></button>
+                                </div>
+
+                                <ul class="card-gallery" hidden data-title="Public Relations Staff, HEC">
+                                    <li data-src="assets/sertif-hec.jpeg" data-alt="Committee certificate for the HIMSI E-sport Competition (HEC)"></li>
+                                    <li data-src="assets/images/experience/hec-1.jpeg" data-alt="HIMSI E-sport Competition event documentation, photo 1"></li>
+                                    <li data-src="assets/images/experience/hec-2.jpeg" data-alt="HIMSI E-sport Competition event documentation, photo 2"></li>
+                                </ul>
+                            </article>
+
+                            <article class="card experience-card">
+                                <div class="card-head">
+                                    <i class="fa-solid fa-handshake icon-chip tone-blush" aria-hidden="true"></i>
+                                    <div>
+                                        <h5>Sponsorship Staff</h5>
+                                        <p class="org">MeetUp 16.0 Committee, Information Systems</p>
+                                    </div>
+                                </div>
+                                <p class="date">Jul 2025 – Oct 2025</p>
+                                <ul class="card-points">
+                                    <li>Secured sponsorship funding of more than Rp10,000,000 through research, negotiation, and B2B partnerships.</li>
+                                    <li>Sent outreach emails to more than 100 prospective partners.</li>
+                                    <li>Managed a cash-in tracker so sponsor funds were recorded clearly.</li>
+                                </ul>
+                                <div class="card-actions">
+                                    <button class="chip-btn gallery-trigger" type="button" hidden><i class="fa-regular fa-images" aria-hidden="true"></i> View photos <span class="count"></span></button>
+                                </div>
+                                <ul class="card-gallery" hidden data-title="Sponsorship Staff, MeetUp 16.0">
+                                    <li data-src="assets/sertif-sponsor.jpeg" data-alt="Committee certificate for MeetUp 16.0 Information Systems"></li>
+                                    <li data-src="assets/sponsor-1.jpeg" data-alt="MeetUp 16.0 sponsorship documentation, photo 2"></li>
+                                    <li data-src="assets/sponsor-2.jpeg" data-alt="MeetUp 16.0 sponsorship documentation, photo 3"></li>
+                                </ul>
+                            </article>
+
+                            <article class="card experience-card">
+                                <div class="card-head">
+                                    <i class="fa-solid fa-wallet icon-chip tone-blush" aria-hidden="true"></i>
+                                    <div>
+                                        <h5>Logistics &amp; Budgeting Staff</h5>
+                                        <p class="org">Ramadhan Series 2025 Committee</p>
+                                    </div>
+                                </div>
+                                <p class="date">Feb 2025 – Mar 2025</p>
+                                <ul class="card-points">
+                                    <li>Managed the logistics budget for three main events: Takjil (iftar snacks), Baksos (community service), and Buka Bersama (communal iftar).</li>
+                                    <li>Researched, selected, and negotiated prices with vendors to stay within budget.</li>
+                                </ul>
+                                <div class="card-actions">
+                                    <button class="chip-btn gallery-trigger" type="button" hidden><i class="fa-regular fa-images" aria-hidden="true"></i> View photos <span class="count"></span></button>
+                                </div>
+                                <ul class="card-gallery" hidden data-title="Logistics &amp; Budgeting Staff, Ramadhan Series 2025">
+                                    <li data-src="assets/sertif konsum.jpeg" data-alt="Committee certificate for Ramadhan Series 2025"></li>
+                                    <li data-src="assets/konsum 1.jpeg" data-alt="Ramadhan Series 2025 event documentation, photo 1"></li>
+                                    <li data-src="assets/konsum 2.jpeg" data-alt="Ramadhan Series 2025 event documentation, photo 2"></li>
+                                </ul>
+                            </article>
+
+                            <article class="card experience-card">
+                                <div class="card-head">
+                                    <i class="fa-solid fa-shield-halved icon-chip tone-blush" aria-hidden="true"></i>
+                                    <div>
+                                        <h5>K3 Division Staff</h5>
+                                        <p class="org">PBAK Committee, Information Systems Department</p>
+                                    </div>
+                                </div>
+                                <p class="date">Jul 2025 – Aug 2025</p>
+                                <ul class="card-points">
+                                    <li>Maintained order for more than 180 participants during a full-day event.</li>
+                                    <li>Handled rule violations on site.</li>
+                                </ul>
+                                <div class="card-actions">
+                                    <button class="chip-btn gallery-trigger" type="button" hidden><i class="fa-regular fa-images" aria-hidden="true"></i> View photos <span class="count"></span></button>
+                                </div>
+                                <ul class="card-gallery" hidden data-title="K3 Division Staff, PBAK Information Systems">
+                                    <li data-src="assets/sertif pbak.jpeg" data-alt="Committee certificate for PBAK Information Systems Department"></li>
+                                    <li data-src="assets/pbak 1.jpeg" data-alt="PBAK Information Systems event documentation, photo 1"></li>
+                                    <li data-src="assets/pbak 2.jpeg" data-alt="PBAK Information Systems event documentation, photo 2"></li>
+                                </ul>
+                            </article>
+
+                            <article class="card experience-card">
+                                <div class="card-head">
+                                    <i class="fa-solid fa-calendar-check icon-chip tone-blush" aria-hidden="true"></i>
+                                    <div>
+                                        <h5>Events Staff &amp; Parade Segment PIC</h5>
+                                        <p class="org">Dubesta Campus Expo Committee</p>
+                                    </div>
+                                </div>
+                                <p class="date">Jan 2025</p>
+                                <ul class="card-points">
+                                    <li>Prepared the event schedule and led the parade segment as PIC.</li>
+                                    <li>Shared information about university life with prospective students.</li>
+                                </ul>
+                                <div class="card-actions">
+                                    <button class="chip-btn gallery-trigger" type="button" hidden><i class="fa-regular fa-images" aria-hidden="true"></i> View photos <span class="count"></span></button>
+                                </div>
+                                <ul class="card-gallery" hidden data-title="Events Staff, Dubesta Campus Expo">
+                                    <li data-src="assets/dubes expo 1.jpeg" data-alt="Dubesta Campus Expo documentation, photo 1"></li>
+                                    <li data-src="assets/dubes expo 2.jpeg" data-alt="Dubesta Campus Expo documentation, photo 2"></li>
+                                    <li data-src="assets/dubes expo 3.jpeg" data-alt="Dubesta Campus Expo documentation, photo 3"></li>
+                                </ul>
+                            </article>
+
+                        </div>
+                    </div>
+
+                    <div class="skills-container" id="skills">
+                        <h3>My Skills</h3>
+                        <div class="skills-grid">
+
+                            <div class="skill-box tone-sage">
+                                <h4><i class="fa-solid fa-table-cells" aria-hidden="true"></i> Microsoft Excel</h4>
+                                <ul class="chip-list">
+                                    <li>VLOOKUP</li><li>HLOOKUP</li><li>INDEX-MATCH</li><li>IF &amp; IFERROR</li>
+                                    <li>SUMIF / SUMIFS</li><li>AVERAGEIF</li><li>COUNTIF</li><li>Pivot Table &amp; Chart</li>
+                                    <li>What-If Analysis</li><li>Data Validation</li><li>Database Excel</li><li>Dashboard Reporting</li>
+                                </ul>
+                            </div>
+
+                            <div class="skill-box tone-lavender">
+                                <h4><i class="fa-solid fa-chart-simple" aria-hidden="true"></i> Data Skills</h4>
+                                <ul class="chip-list">
+                                    <li>Data Entry &amp; Validation</li><li>Data Cleansing &amp; Normalization</li>
+                                    <li>Data Reconciliation</li><li>Data Collection</li><li>Reporting &amp; Tracking</li>
+                                    <li>Dashboard Reporting</li><li>Basic Statistical Analysis</li>
+                                </ul>
+                            </div>
+
+                            <div class="skill-box tone-blush">
+                                <h4><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> Tools &amp; Software</h4>
+                                <ul class="chip-list">
+                                    <li>Microsoft Excel</li><li>Tableau</li><li>Google Sheets</li><li>Google Forms</li>
+                                    <li>Google Workspace</li><li>draw.io (BPMN 2.0)</li><li>Microsoft Word</li>
+                                    <li>Canva</li><li>HTML &amp; CSS</li><li>Social Media Management</li>
+                                </ul>
+                            </div>
+
+                            <div class="skill-box tone-butter">
+                                <h4><i class="fa-solid fa-comments" aria-hidden="true"></i> Soft Skills</h4>
+                                <ul class="chip-list">
+                                    <li>Willingness to Learn</li><li>Event Coordination</li><li>Time Management</li>
+                                    <li>Teamwork</li><li>Communication</li><li>Ability to Work Under Pressure</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="learning-box">
+                            <h4><i class="fa-solid fa-seedling" aria-hidden="true"></i> Currently learning</h4>
+                            <ul class="chip-list chip-list-dashed">
+                                <li>SQL</li><li>Python</li><li>Microsoft Power BI</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="certification-container" id="certification">
+                        <h3>Certification</h3>
+                        <article class="cert-card">
+                            <i class="fa-solid fa-award cert-icon" aria-hidden="true"></i>
+                            <div class="cert-body">
+                                <h4>Microsoft Excel Certification</h4>
+                                <p class="cert-levels">Beginner, Intermediate, Advanced &amp; Data Analyst</p>
+                                <p class="muted">DSAREA, April 2026. Grade A on every level. Certificate no. 0115/DSA/MOE/042026</p>
+                                <ul class="chip-list chip-list-small" aria-label="Topics covered">
+                                    <li>VLOOKUP</li><li>HLOOKUP</li><li>INDEX-MATCH</li><li>Pivot Table &amp; Chart</li>
+                                    <li>SUMIF / SUMIFS / AVERAGEIF</li><li>What-If Analysis</li><li>Data Validation</li>
+                                    <li>Excel Macro</li><li>Advanced Statistics</li><li>Hypothesis Testing</li>
+                                    <li>Correlation Test</li><li>Linear Regression</li><li>Database Excel</li>
+                                </ul>
+                                <div class="card-actions">
+                                    <a class="chip-btn" href="assets/sertif-excel.pdf" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa-regular fa-file-pdf" aria-hidden="true"></i> View certificate
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-title">
+                    <p class="section-kicker">SELECTED WORK</p>
+                    <h2>Projects</h2>
+                    <p>Small steps, practical solutions, and lessons learned along the way.</p>
+                </div>
+
+                <div class="project-grid">
+
+                    <article class="project-card tone-sage">
+                        <div class="project-info">
+                            <ul class="tag-list"><li>Dashboard</li><li>Data Management</li></ul>
+                            <h4>Sales Performance Dashboard 2024</h4>
+                            <p class="project-context">Microsoft Excel Bootcamp project, DSAREA, 2026</p>
+                            <p>A formula-driven Excel workbook and executive dashboard built from 400 electronics retail transactions.</p>
+                            <ul class="tool-list"><li>Microsoft Excel</li><li>Pivot Table</li></ul>
+                            <div class="project-actions">
+                                <button type="button" class="btn-outline" data-open="modal-sales">Read case study</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card tone-lavender">
+                        <div class="project-info">
+                            <ul class="tag-list"><li>Data Visualization</li><li>Business Intelligence</li></ul>
+                            <h4>Global Human Development Dashboard</h4>
+                            <p class="project-context">Final project, Data Warehouse &amp; Business Intelligence course (individual), July 2026</p>
+                            <p>An interactive Tableau analysis of the economic and social well-being of 167 countries.</p>
+                            <ul class="tool-list"><li>Tableau</li><li>Kaggle dataset</li></ul>
+                            <div class="project-actions">
+                                <button type="button" class="btn-outline" data-open="modal-tableau">Read case study</button>
+                                <a class="btn-link" href="https://public.tableau.com/shared/X6RHY6WYQ?:display_count=n&amp;:origin=viz_share_link" target="_blank" rel="noopener">Open on Tableau Public <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card tone-blush">
+                        <div class="project-info">
+                            <ul class="tag-list"><li>Data Management</li><li>Data Cleansing</li></ul>
+                            <h4>HIMSI Esports Tournament</h4>
+                            <p class="project-context">Public Relations Staff, HEC UIN Jakarta, Aug – Oct 2025</p>
+                            <p>Cleaning, structuring, and reconciling registration and payment data for 36 participants.</p>
+                            <ul class="tool-list"><li>Microsoft Excel</li><li>Google Forms</li></ul>
+                            <div class="project-actions">
+                                <button type="button" class="btn-outline" data-open="modal-hec">Read case study</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card tone-butter">
+                        <div class="project-info">
+                            <ul class="tag-list"><li>Business Process Analysis</li><li>System Design</li></ul>
+                            <h4>HR System Analysis &amp; Design</h4>
+                            <p class="project-context">Enterprise Systems course project, HR Analyst, 2026</p>
+                            <p>As-is and to-be BPMN 2.0 models of the HR processes of a bottled-water manufacturer, within a six-module integrated team.</p>
+                            <ul class="tool-list"><li>BPMN 2.0</li><li>draw.io</li></ul>
+                            <div class="project-actions">
+                                <button type="button" class="btn-outline" data-open="modal-hr">Read case study</button>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-title">
+                    <p class="section-kicker">SAY HELLO</p>
+                    <h2>Let’s Connect!</h2>
+                    <p>Have an opportunity, a project idea, or simply want to say hello? My inbox is open.</p>
+                </div>
+
+                <div class="contact-cards">
+                    <a href="mailto:salsabilaartika04@gmail.com" class="contact-card">
+                        <span class="icon-wrapper mail-color"><i class="fa-solid fa-envelope" aria-hidden="true"></i></span>
+                        <h3>Email</h3>
+                        <p>salsabilaartika04@gmail.com</p>
+                    </a>
+
+                    <a href="https://wa.me/628990909430" target="_blank" rel="noopener" class="contact-card">
+                        <span class="icon-wrapper wa-color"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></span>
+                        <h3>WhatsApp</h3>
+                        <p>+62 899-0909-430</p>
+                    </a>
+
+                    <a href="https://instagram.com/salsabilartika" target="_blank" rel="noopener" class="contact-card">
+                        <span class="icon-wrapper ig-color"><i class="fa-brands fa-instagram" aria-hidden="true"></i></span>
+                        <h3>Instagram</h3>
+                        <p>@salsabilartika</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p><span class="footer-heart" aria-hidden="true">♥</span> Made with lOovEe by Salsa · &copy; 2026</p>
+        <a href="#hero">Back to top <i class="fa-solid fa-arrow-up" aria-hidden="true"></i></a>
+    </footer>
+
+    <dialog id="modal-sales" class="modal" aria-labelledby="modal-sales-title">
+        <div class="modal-content">
+            <button class="modal-close" type="button" data-close aria-label="Close case study"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+            <div class="modal-header">
+                <h2 id="modal-sales-title">Sales Performance Dashboard 2024</h2>
+                <p class="modal-role"><strong>Context:</strong> Microsoft Excel Bootcamp, DSAREA (2026), grade A &nbsp;|&nbsp; <strong>Tools:</strong> Microsoft Excel</p>
+            </div>
+            <ul class="stat-row" aria-label="Project scope in numbers"><li><strong>400</strong><span>transactions in the dataset</span></li><li><strong>256</strong><span>completed transactions analyzed</span></li><li><strong>3</strong><span>reference tables linked</span></li></ul>
+            <div class="modal-body">
+                <h3>Project Overview</h3>
+                <p>A Microsoft Excel project built during the DSAREA Excel bootcamp. I worked with a dataset of 400 electronics retail transactions and focused the analysis on the 256 transactions with the status <em>Selesai</em> (completed) between January and December 2024. The goal was to turn a flat transaction list into a formula-driven workbook and an executive dashboard.</p>
+
+                <h3>The Challenge</h3>
+                <p>The raw data mixed completed, in-process, cancelled, and returned transactions (<em>Selesai</em> = completed, <em>Proses</em> = in process, <em>Batal</em> = cancelled, and <em>Return</em> = returned), while product, sales, and region details lived in separate reference tables. The dashboard had to report only completed transactions and keep every figure traceable to the source data.</p>
+
+                <h3>The Action</h3>
+                <ul>
+                    <li><strong>Relational lookups:</strong> built a formula-driven transaction table linked to three reference tables (products, sales, and regions) with VLOOKUP and INDEX-MATCH.</li>
+                    <li><strong>Calculations:</strong> computed total sales, cost of goods sold (COGS), profit, and margin for each transaction.</li>
+                    <li><strong>Executive dashboard:</strong> used SUMIFS and COUNTIF so the KPIs count only completed transactions.</li>
+                    <li><strong>Error handling:</strong> wrapped the lookups in IFERROR so the dashboard stays free of error values.</li>
+                    <li><strong>Exploration:</strong> added Pivot Tables and slicers for interactive filtering.</li>
+                </ul>
+
+                <h3>The Impact &amp; Results</h3>
+                <p>The dashboard summarizes the completed transactions in one view:</p>
+                <ul class="fact-list">
+                    <li><strong>Rp8.76 billion</strong> total sales</li>
+                    <li><strong>Rp2.82 billion</strong> total profit</li>
+                    <li><strong>256</strong> completed transactions</li>
+                    <li><strong>32.2%</strong> average margin</li>
+                </ul>
+
+                <div class="shot-group">
+                    <figure class="shot" data-zoom data-src="assets/sales dashboard.jpeg" data-alt="Executive dashboard showing total sales, total profit, completed transactions, and average margin" data-caption="Executive dashboard"></figure>
+                    <figure class="shot" data-zoom data-src="assets/sales dashboard 2.jpeg" data-alt="Excel transaction worksheet with lookup formulas linked to product, sales, and region tables" data-caption="Transaction worksheet with lookup formulas"></figure>
+                    <figure class="shot" data-zoom data-src="assets/sales dashboard 3.png" data-alt="Pivot Tables and slicers used to explore the sales data" data-caption="Pivot Tables and slicers"></figure>
+                </div>
+            </div>
+        </div>
+    </dialog>
+
+    <dialog id="modal-tableau" class="modal" aria-labelledby="modal-tableau-title">
+        <div class="modal-content">
+            <button class="modal-close" type="button" data-close aria-label="Close case study"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+            <div class="modal-header">
+                <h2 id="modal-tableau-title">Global Human Development Dashboard</h2>
+                <p class="modal-role"><strong>Context:</strong> Final project, Data Warehouse &amp; Business Intelligence course (individual), July 2026 &nbsp;|&nbsp; <strong>Tools:</strong> Tableau</p>
+            </div>
+            <ul class="stat-row" aria-label="Project scope in numbers"><li><strong>167</strong><span>countries</span></li><li><strong>10</strong><span>variables</span></li><li><strong>10</strong><span>worksheets</span></li><li><strong>2</strong><span>interactive dashboards</span></li></ul>
+            <div class="modal-body">
+                <p class="modal-link">
+                    <a class="btn-primary" href="https://public.tableau.com/shared/X6RHY6WYQ?:display_count=n&amp;:origin=viz_share_link" target="_blank" rel="noopener">Open the live dashboard on Tableau Public <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                </p>
+
+                <h3>Project Overview</h3>
+                <p>The final project for the Data Warehouse and Business Intelligence course, completed individually in July 2026. I analyzed a socio-economic dataset of 167 countries and 10 variables from Kaggle, and built an interactive Tableau dashboard to compare economic prosperity and quality of life across countries.</p>
+
+                <h3>The Challenge</h3>
+                <p>GDP per capita can differ by hundreds of times between countries, which makes patterns hard to see in a table. The project set out to show, in a few clear views, how a country’s wealth relates to the well-being of its people.</p>
+
+                <h3>The Action</h3>
+                <ul>
+                    <li><strong>Structured flow:</strong> followed business understanding, data understanding, data preparation, analysis, findings, and recommendations.</li>
+                    <li><strong>Data quality check:</strong> confirmed there were no missing values or duplicate rows across the 167 countries.</li>
+                    <li><strong>Preparation in Tableau:</strong> set the Geographic Role for country names and created a calculated field for trade balance (exports minus imports, as a percentage of GDP).</li>
+                    <li><strong>Outlier decision:</strong> Singapore and Luxembourg show export and import values above 100% of GDP. After checking, I kept them because they reflect trading-hub economies, not input errors.</li>
+                    <li><strong>Visualization:</strong> built 10 worksheets and 2 interactive dashboards (Global Economic Overview, and Health &amp; Social Indicators) using a map, Top N rankings, scatter plots, and average reference lines.</li>
+                    <li><strong>Business questions:</strong> answered 8 questions defined at the start, such as which countries are most prosperous and most economically vulnerable.</li>
+                </ul>
+
+                <h3>The Impact &amp; Results</h3>
+                <p>The analysis produced 5 findings and 5 recommendations for stakeholders such as international organizations, governments, researchers, and investors. Some of the findings:</p>
+                <ul>
+                    <li>Higher GDP per capita goes together with longer life expectancy, and the few low-GDP countries with long life expectancy are worth studying.</li>
+                    <li>Spending more on health does not automatically give the highest life expectancy.</li>
+                    <li>Wealthier countries tend to have fertility rates below the replacement level of 2.1.</li>
+                    <li>Extreme inflation is concentrated in lower-income developing countries.</li>
+                </ul>
+
+                <div class="shot-group">
+                    <figure class="shot" data-zoom data-src="assets/tableau dashboard (1).png" data-alt="Global Economic Overview dashboard with a world map, GDP per capita ranking, and GDP versus life expectancy scatter plot" data-caption="Dashboard 1: Global Economic Overview"></figure>
+                    <figure class="shot" data-zoom data-src="assets/tableau dashboard (2).png" data-alt="Health and Social Indicators dashboard with rankings for health expenditure, life expectancy, and inflation, plus scatter plots" data-caption="Dashboard 2: Health &amp; Social Indicators"></figure>
+                </div>
+            </div>
+        </div>
+    </dialog>
+
+    <dialog id="modal-hec" class="modal" aria-labelledby="modal-hec-title">
+        <div class="modal-content">
+            <button class="modal-close" type="button" data-close aria-label="Close case study"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+            <div class="modal-header">
+                <h2 id="modal-hec-title">Data Management &amp; Cleansing: HIMSI Esports Tournament</h2>
+                <p class="modal-role"><strong>Role:</strong> Public Relations Staff, HEC UIN Jakarta (Aug – Oct 2025) &nbsp;|&nbsp; <strong>Tools:</strong> Microsoft Excel</p>
+            </div>
+            <ul class="stat-row" aria-label="Project scope in numbers"><li><strong>36</strong><span>participants</span></li><li><strong>3</strong><span>game categories</span></li><li><strong>Rp1,000,000</strong><span>payments reconciled</span></li></ul>
+            <div class="modal-body">
+                <h3>Project Overview</h3>
+                <p>I prepared the registration data for a campus esports tournament organized by HIMSI at UIN Jakarta, featuring FIFA, Mobile Legends, and Valorant. As Public Relations Staff, I cleaned and validated the data of 36 participants so the match division could build the tournament brackets.</p>
+
+                <h3>The Challenge</h3>
+                <p>The raw registration data collected through Google Forms was unstructured. It mixed solo players with team registrations, used inconsistent text formats (random capitalization and extra spaces), and had overlapping columns. The database had to be restructured quickly and accurately so the committee could continue without administrative delays.</p>
+                <figure class="shot" data-zoom data-src="assets/Raw Data P1.jpeg" data-alt="Raw registration data before cleaning, with inconsistent capitalization and spacing" data-caption="Raw data before cleaning"></figure>
+
+                <h3>The Action</h3>
+                <ul>
+                    <li><strong>Data cleansing:</strong> normalized the text entries with the PROPER and TRIM formulas to fix capitalization and remove extra spaces.</li>
+                    <li><strong>Data transformation:</strong> separated the master data into three structured tables, one for each game.</li>
+                    <li><strong>Payment validation:</strong> validated and reconciled participant payments made through QRIS and DANA.</li>
+                    <li><strong>Privacy:</strong> masked personally identifiable information (PII) in the shared views.</li>
+                    <li><strong>Reporting:</strong> built Pivot Tables and a simple visual dashboard with Pie and Bar charts.</li>
+                </ul>
+                <div class="shot-group">
+                    <figure class="shot" data-zoom data-src="assets/Clean Data P11.jpeg" data-alt="Cleaned registration table after normalization" data-caption="Clean data, table 1"></figure>
+                    <figure class="shot" data-zoom data-src="assets/clean data P12.jpeg" data-alt="Cleaned registration table separated by game category" data-caption="Clean data, table 2"></figure>
+                </div>
+                <p class="image-note">Note: personally identifiable information such as phone numbers, emails, and student IDs has been masked or anonymized in these images to protect participant privacy.</p>
+
+                <h3>The Impact &amp; Results</h3>
+                <ul>
+                    <li>Gave the match division a clean, ready-to-use database to build the brackets.</li>
+                    <li>Reconciled the registration payments, totaling <strong>Rp1,000,000</strong> across QRIS and DANA, with <strong>100% accuracy and no discrepancies</strong>.</li>
+                    <li>Produced visual summaries of participant demographics and game popularity, used as input for the committee’s evaluation.</li>
+                </ul>
+                <div class="shot-group">
+                    <figure class="shot" data-zoom data-src="assets/Dashboard P1.jpeg" data-alt="Dashboard with Pie and Bar charts of participant demographics and game popularity" data-caption="Dashboard"></figure>
+                    <figure class="shot" data-zoom data-src="assets/Analisis Pivot P1.jpeg" data-alt="Pivot Table analysis of the registration data" data-caption="Pivot Table analysis"></figure>
+                </div>
+            </div>
+        </div>
+    </dialog>
+
+    
+    <dialog id="modal-hr" class="modal" aria-labelledby="modal-hr-title">
+        <div class="modal-content">
+            <button class="modal-close" type="button" data-close aria-label="Close case study">
+                <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+            </button>
+
+            <div class="modal-header">
+                <h2 id="modal-hr-title">HR Business Process Analysis &amp; BPMN Modeling</h2>
+                <p class="modal-role">
+                    <strong>Role:</strong> HR Analyst, Enterprise Systems Course Project (2026)
+                    &nbsp;|&nbsp;
+                    <strong>Tools:</strong> Search Engines, draw.io (BPMN 2.0)
+                </p>
+            </div>
+
+            <ul class="stat-row" aria-label="Project scope in numbers">
+                <li><strong>6</strong><span>integrated modules</span></li>
+                <li><strong>2</strong><span>BPMN 2.0 diagrams</span></li>
+                <li><strong>4</strong><span>members in the HR team</span></li>
+            </ul>
+
+            <div class="modal-body">
+                <h3>Project Overview</h3>
+                <p>
+                    An Enterprise Systems course project focused on analyzing
+                    and designing an integrated Human Resource (HR) module a bottled-water
+                    manufacturing company. The project was part of a
+                    six-module enterprise system initiative involving HR,
+                    Purchasing, Finance, Production, Inventory, and
+                    Sales &amp; Marketing.
+                </p>
+
+                <p>
+                    As the HR Analyst and the only analyst in a four-member
+                    HR team, I conducted preliminary desk research using
+                    search engines and publicly available references to
+                    understand the company's organizational structure,
+                    HR functions, and operational activities. The research
+                    provided a foundation for analyzing business processes
+                    and developing the proposed HR workflows.
+                </p>
+
+                <h3>The Challenge</h3>
+                <p>
+                    The HR function covered several interconnected
+                    activities, including recruitment, employee management,
+                    attendance and payroll, performance evaluation,
+                    shift scheduling, occupational health and safety (K3L),
+                    and legal administration. These processes also involved
+                    coordination with Finance and Production.
+                </p>
+
+                <p>
+                    The main challenge was to understand the existing
+                    workflows, identify operational problems and integration
+                    gaps, and translate the findings into structured process
+                    models. The proposed workflows also needed to show how
+                    the HR module could connect with other enterprise
+                    modules.
+                </p>
+
+                <h3>The Action</h3>
+                <ul>
+                    <li>
+                        <strong>Preliminary Research:</strong> explored
+                        publicly available references through search engines
+                        to understand the company's organizational structure,
+                        HR responsibilities, and business operations.
+                    </li>
+                    <li>
+                        <strong>Business Process Analysis:</strong> examined
+                        key HR activities and identified issues such as
+                        manual data entry, disconnected employee records,
+                        payroll coordination gaps, and separate shift
+                        scheduling between HR and Production.
+                    </li>
+                    <li>
+                        <strong>AS-IS Process Modeling:</strong> developed
+                        a BPMN 2.0 diagram in draw.io to illustrate existing
+                        workflows, covering recruitment, attendance and
+                        payroll, KPI evaluation, shift scheduling, K3L,
+                        and legal administration.
+                    </li>
+                    <li>
+                        <strong>TO-BE Process Design:</strong> proposed
+                        improved HR workflows through an integrated
+                        enterprise system, including digital recruitment,
+                        automated attendance and payroll synchronization,
+                        KPI evaluation, shift scheduling, and integrated
+                        K3L and legal processes.
+                    </li>
+                    <li>
+                        <strong>Cross-Module Integration:</strong> mapped
+                        the proposed interactions between HR, Finance,
+                        and Production to support connected data flows
+                        and better coordination across departments.
+                    </li>
+                    <li>
+                        <strong>Team Handover:</strong> prepared and
+                        presented the process diagrams and analysis
+                        documentation as references for the Design
+                        and Programmer teams, who continued the project
+                        through the subsequent system design and
+                        development stages.
+                    </li>
+                </ul>
+
+                <h3>The Impact &amp; Results</h3>
+                <ul>
+                    <li>
+                        Delivered two BPMN 2.0 diagrams representing
+                        the existing (AS-IS) and proposed (TO-BE)
+                        HR business processes.
+                    </li>
+                    <li>
+                        Produced a structured analysis of HR workflows
+                        and identified key integration opportunities
+                        with Finance and Production.
+                    </li>
+                    <li>
+                        Provided process documentation that served as
+                        a reference for the Design and Programmer teams
+                        in the next stages of the project.
+                    </li>
+                </ul>
+
+                <p class="image-note scope-note">
+                    My responsibility focused on preliminary research,
+                    business process analysis, and BPMN 2.0 modeling.
+                    The subsequent system design and programming stages
+                    were handled by the respective team members.
+                    This was an academic system analysis and design
+                    project, not a real ERP implementation.
+                </p>
+
+                <div class="shot-group">
+                    <figure class="shot"
+                        data-zoom
+                        data-src="assets/BPMN Human Resource (PROJECT)-Sistem Berjalan.jpg"
+                        data-alt="AS-IS BPMN 2.0 diagram of the existing HR business processes"
+                        data-caption="AS-IS BPMN 2.0 Diagram">
+                    </figure>
+
+                    <figure class="shot"
+                        data-zoom
+                        data-src="assets/BPMN Human Resource (PROJECT)-Sistem Usulan.jpg"
+                        data-alt="TO-BE BPMN 2.0 diagram of the proposed integrated HR workflows"
+                        data-caption="TO-BE BPMN 2.0 Diagram">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </dialog>
+
+    <dialog id="lightbox" class="lightbox" aria-label="Image viewer">
+        <button class="lightbox-close" type="button" data-close aria-label="Close image viewer"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+        <button class="lightbox-nav lightbox-prev" type="button" aria-label="Previous image"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+        <figure class="lightbox-figure">
+            <img class="lightbox-img" src="" alt="">
+            <figcaption>
+                <span class="lightbox-caption"></span>
+                <span class="lightbox-counter"></span>
+                <a class="lightbox-original" href="#" target="_blank" rel="noopener">Open original</a>
+            </figcaption>
+        </figure>
+        <button class="lightbox-nav lightbox-next" type="button" aria-label="Next image"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+    </dialog>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
